@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>fibonacci</h1>
+    <script>
+      var x=1;
+      var arr = [];
+      for (var i = 0; i < 10; i++){
+        arr[i] = x;
+        if (arr.length > 2) x = arr[i] + arr[i-1];
+        document.write(x + ', ');
+      }
+    </script>
+    <pre>
+      <code>
+      var x=1;
+      var arr = [];
+      for (var i = 0; i < 10; i++){
+        arr[i] = x;
+        if (arr.length > 2) x = arr[i] + arr[i-1];
+        document.write(x + ', ');
+      }</code>
+    </pre>
+    <p>GitHub.com/kyle-barth</p>
+  </body>
+</html>
