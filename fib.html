@@ -9,9 +9,9 @@
       var arr = [];
       for (var i = 0; i < 20; i++){
         arr[i] = x;
-        if (arr.length > 2) x = arr[i] + arr[i-1];
-        document.write(x + ', ');
+        if (arr.length > 1) x = arr[i] + arr[i-1];
       }
+      document.write(arr.toString());
     </script>
     <pre>
       <code>
@@ -19,9 +19,9 @@
       var arr = [];
       for (var i = 0; i < 20; i++){
         arr[i] = x;
-        if (arr.length > 2) x = arr[i] + arr[i-1];
-        document.write(x + ', ');
-      }</code>
+        if (arr.length > 1) x = arr[i] + arr[i-1];
+      }
+      document.write(arr.toString());</code>
     </pre>
     <p>GitHub.com/kyle-barth</p>
   </body>
